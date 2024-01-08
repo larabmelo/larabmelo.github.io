@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, ul, p, blockquote, dd {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 900px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .projects-links {
+      gap: 10px;
+  }
+}

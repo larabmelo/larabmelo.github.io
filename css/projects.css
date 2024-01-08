@@ -1,0 +1,172 @@
+.bikcraft {
+  margin-bottom: 80px;
+}
+
+.my-projects {
+font-size: 1.5rem;
+font-weight: 500;
+  letter-spacing: 0.05rem;
+  margin-bottom: 20px
+}
+
+.image2{
+  display: none;
+}
+
+.project-description > h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  line-height: 2.5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+.project-description h3 {
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 0.08rem;
+  color: #8d8d8d;
+  margin-top: 20px;
+}
+
+.project-description span {
+  display: block;
+}
+
+.duration-title {
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 0.08rem;
+  color: #8d8d8d;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.project-description p {
+  letter-spacing: 0.05rem;
+  line-height: 2.3rem;
+  margin-bottom: 30px;
+}
+
+.link-origamid {
+  background-color: #C2AAFF;
+}
+
+.link-origamid:hover {
+  background-color: #d1bfff;
+}
+
+.link-youtube {
+  background-color: #80bcfb;
+}
+
+.link-youtube:hover {
+  background-color: #50a0f6;
+}
+
+.description-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 40px;
+}
+
+.overview-title, .overview-description {
+  grid-column: 1;
+}
+
+.technologies-title, .technologies-duration {
+  grid-column: 2;
+  max-width: 300px;
+}
+
+.technologies-title {
+  grid-row: 1;
+}
+
+.live-bikcraft {
+  background-color: #FFDF7E;
+}
+
+.live-bikcraft:hover {
+  background-color: #fbd560;
+}
+
+.live-weather {
+  background-color: #ACCAEF;
+}
+
+.live-weather:hover {
+  background-color: #94bbec;
+}
+
+.live-mystore {
+  background-color: #C3E4A9;
+}
+
+.live-mystore:hover {
+  background-color: #a7dc7f;
+}
+
+.live-todo {
+  background-color: #FFB67F;
+}
+
+.live-todo:hover {
+  background-color: #f7c095;
+}
+
+.more-projects {
+  max-width: 1100px;
+  margin: 0 auto 100px;
+  padding: 20px;
+}
+
+.more-projects h3 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.more-projects-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  gap: 10px;
+}
+
+.more-projects-links a, .more-projects-links img {
+  border-radius: 4px;
+}
+
+.more-projects-links a:hover {
+  box-shadow: 2px 1px 5px 2px rgb(213, 213, 213);
+}
+
+@media (max-width: 580px) {
+  .description-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .technologies-title, .technologies-duration {
+    grid-column: auto;
+    max-width: none;
+  }
+
+  .image1{
+    display: none;
+  }
+
+  .image2{
+    display: block;
+  }
+
+  .more-projects-links {
+    flex-direction: column;
+  }
+}
