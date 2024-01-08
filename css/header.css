@@ -32,9 +32,7 @@ padding: 2px;
 }
 
 .active {
-  text-decoration: underline;
-  text-decoration-color: #ffc5e0;
-  text-decoration-thickness: 2px;
+  background-color: #ffc5e0;
   }
 
 .header-menu a:hover {
