@@ -41,6 +41,7 @@ list-style-position: inside;
 
 .about-contact {
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .about a {
@@ -49,6 +50,7 @@ list-style-position: inside;
   letter-spacing: 0.05rem;
   line-height: 2rem;
   background-color: #ffc5e0;
+  padding: 2px;
 }
 
 .about a:hover {

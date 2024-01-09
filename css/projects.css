@@ -158,6 +158,10 @@ font-weight: 500;
     max-width: none;
   }
 
+  .technologies-title {
+    grid-row: 3;
+}
+
   .image1{
     display: none;
   }
