@@ -34,6 +34,7 @@ padding: 2px;
 
 .active {
   background-color: #ffc5e0;
+  text-decoration: none
   }
 
 .header-menu a:hover {
