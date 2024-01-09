@@ -24,7 +24,8 @@
   letter-spacing: 0.05rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  justify-content: center;
+  gap: 30px;
 }
 
 .header-menu a {
@@ -69,6 +70,10 @@ padding: 2px;
 
 @media (max-width: 370px) {
   .header-menu {
-    gap: 20px;
+    gap: 40px;
+  }
+
+  .header-bg {
+    margin-bottom: 40px;
   }
 }

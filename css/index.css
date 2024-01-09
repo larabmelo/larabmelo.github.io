@@ -12,6 +12,30 @@
   margin-bottom: 20px;
 }
 
+.container-typewriter {
+  display: inline-block;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: rgb(0, 0, 0); }
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid rgb(0, 0, 0);
+    font-size: 1.6rem;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 1s steps(20, end) forwards,
+                blink .8s infinite;
+}
+
 .introducao h2 {
   font-size: 1.1rem;
   font-weight: 300;
