@@ -30,12 +30,12 @@ footer .logo-text {
 
 .contact-links {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 
 @media (max-width: 480px) {
   .contact-links {
-    gap: 25px;
+    gap: 20px;
   }
 }
 
