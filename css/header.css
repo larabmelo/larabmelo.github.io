@@ -72,6 +72,10 @@ padding: 2px;
     text-decoration: underline;
   }
 
+ ul.header-menu {
+  padding: 0;
+ }
+
 }
 
 @media (max-width: 370px) {

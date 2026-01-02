@@ -103,7 +103,7 @@
 
 .toolkit ul {
   max-width: 900px;
-  /* padding: 0 20px; */
+  padding: 0 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -133,6 +133,7 @@
 .toolkit li:hover {
   border: 2px solid #ffc5e0;
 }
+
 
 @media (max-width: 700px) {
   .toolkit ul {
