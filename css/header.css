@@ -28,6 +28,10 @@
   gap: 30px;
 }
 
+.header ul li {
+  list-style: none;
+}
+
 .header-menu a {
 padding: 2px;
 }

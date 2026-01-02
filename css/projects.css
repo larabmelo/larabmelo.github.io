@@ -54,6 +54,20 @@ font-weight: 500;
   margin-bottom: 30px;
 }
 
+.ux-listing ul li {
+  list-style-position: inside;
+  line-height: 2rem;
+  letter-spacing: 0.05rem;
+}
+
+.ux-listing ul {
+  padding-inline-start: 0;
+}
+
+.ux-listing p {
+  margin-bottom: 10px;
+}
+
 .link-origamid {
   background-color: #C2AAFF;
 }
@@ -98,29 +112,6 @@ font-weight: 500;
   background-color: #fbd560;
 }
 
-.live-weather {
-  background-color: #ACCAEF;
-}
-
-.live-weather:hover {
-  background-color: #94bbec;
-}
-
-.live-mystore {
-  background-color: #C3E4A9;
-}
-
-.live-mystore:hover {
-  background-color: #a7dc7f;
-}
-
-.live-todo {
-  background-color: #FFB67F;
-}
-
-.live-todo:hover {
-  background-color: #f7c095;
-}
 
 .project-subtitle {
   font-weight: 600;
@@ -130,19 +121,8 @@ font-weight: 500;
 .ux-img {
   margin-bottom: 16px;
 }
-
-.ux-listing {
-  letter-spacing: 0.05rem;
-  line-height: 2.3rem;
-}
-
 strong {
   font-weight: 600;
-}
-
-.ux-listing  li {
-  display: block;
-  margin-bottom: 16px;
 }
 
 .benchmarking {
